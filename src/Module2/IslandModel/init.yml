@@ -1,0 +1,215 @@
+mapRows: 4
+mapCols: 4
+cycleDuration: 1000 # millis
+stopOnTimeout: True # specified in gameDuration below
+gameDuration: 10000 # millis
+initialBirthPercent: 90
+unviableWeightPercent: 50
+animalGrowUpPercent: 20
+plantGrowUpPercent: 5
+organismsInitialQuantity:
+  "Wolf": 4
+  "Bear": 3
+  "Boa": 3
+  "Eagle": 5
+  "Fox": 4
+  "Boar": 5
+  "Buffalo": 2
+  "Caterpillar": 300
+  "Deer": 7
+  "Duck": 10
+  "Goat": 12
+  "Horse": 10
+  "Mouse": 20
+  "Rabbit": 16
+  "Sheep": 12
+  "Plant": 100
+organismsChildrenQuantity:
+  "Wolf": 6
+  "Bear": 3
+  "Boa": 3
+  "Eagle": 2
+  "Fox": 6
+  "Boar": 5
+  "Buffalo": 1
+  "Caterpillar": 300
+  "Deer": 2
+  "Duck": 9
+  "Goat": 2
+  "Horse": 1
+  "Mouse": 7
+  "Rabbit": 5
+  "Sheep": 2
+  "Plant": 50
+chanceToGetEat:
+  "Wolf":
+    "Horse": 10
+    "Deer": 15
+    "Rabbit": 60
+    "Mouse": 80
+    "Goat": 60
+    "Sheep": 70
+    "Boar": 15
+    "Buffalo": 10
+    "Duck": 40
+  "Boa":
+    "Fox": 15
+    "Rabbit": 20
+    "Mouse": 40
+    "Duck": 10
+  "Fox":
+    "Rabbit": 70
+    "Mouse": 90
+    "Duck": 60
+    "Caterpillar": 40
+  "Bear":
+    "Boa": 80
+    "Horse": 40
+    "Deer": 80
+    "Rabbit": 80
+    "Mouse": 90
+    "Goat": 70
+    "Sheep": 70
+    "Boar": 50
+    "Buffalo": 20
+    "Duck": 10
+  "Eagle":
+    "Fox": 10
+    "Rabbit": 90
+    "Mouse": 90
+    "Duck": 80
+  "Horse":
+    "Plant": 100
+  "Deer":
+    "Plant": 100
+  "Rabbit":
+    "Plant": 100
+  "Mouse":
+    "Caterpillar": 90
+    "Plant": 100
+  "Goat":
+    "Plant": 100
+  "Sheep":
+    "Plant": 100
+  "Boar":
+    "Mouse": 90
+    "Caterpillar": 90
+    "Plant": 100
+  "Buffalo":
+    "Plant": 100
+  "Duck":
+    "Caterpillar": 90
+    "Plant": 100
+  "Caterpillar":
+    "Plant": 100
+organismsCommonSpecs:
+  "Wolf":
+    "name": "Волк"
+    "icon": 🐺
+    "maxWeight": 50
+    "maxQuantity": 30
+    "maxSpeed": 3
+    "maxFoodRequired": 8
+  "Boa":
+    "name": "Удав"
+    "icon": 🐍
+    "maxWeight": 15
+    "maxQuantity": 30
+    "maxSpeed": 1
+    "maxFoodRequired": 3
+  "Fox":
+    "name": "Лиса"
+    "icon": 🦊
+    "maxWeight": 8
+    "maxQuantity": 30
+    "maxSpeed": 2
+    "maxFoodRequired": 2
+  "Bear":
+    "name": "Медведь"
+    "icon": 🐻
+    "maxWeight": 500
+    "maxQuantity": 5
+    "maxSpeed": 2
+    "maxFoodRequired": 80
+  "Eagle":
+    "name": "Орел"
+    "icon": 🦅
+    "maxWeight": 6
+    "maxQuantity": 20
+    "maxSpeed": 3
+    "maxFoodRequired": 1
+  "Horse":
+    "name": "Лошадь"
+    "icon": 🐎
+    "maxWeight": 400
+    "maxQuantity": 20
+    "maxSpeed": 4
+    "maxFoodRequired": 60
+  "Deer":
+    "name": "Олень"
+    "icon": 🦌
+    "maxWeight": 300
+    "maxQuantity": 20
+    "maxSpeed": 4
+    "maxFoodRequired": 50
+  "Rabbit":
+    "name": "Кролик"
+    "icon": 🐇
+    "maxWeight": 2
+    "maxQuantity": 150
+    "maxSpeed": 2
+    "maxFoodRequired": 0.45
+  "Mouse":
+    "name": "Мышь"
+    "icon": 🐁
+    "maxWeight": 0.05
+    "maxQuantity": 500
+    "maxSpeed": 1
+    "maxFoodRequired": 0.01
+  "Goat":
+    "name": "Коза"
+    "icon": 🐐
+    "maxWeight": 60
+    "maxQuantity": 140
+    "maxSpeed": 3
+    "maxFoodRequired": 10
+  "Sheep":
+    "name": "Овца"
+    "icon": 🐑
+    "maxWeight": 70
+    "maxQuantity": 140
+    "maxSpeed": 3
+    "maxFoodRequired": 15
+  "Boar":
+    "name": "Кабан"
+    "icon": 🐗
+    "maxWeight": 400
+    "maxQuantity": 50
+    "maxSpeed": 2
+    "maxFoodRequired": 50
+  "Buffalo":
+    "name": "Буйвол"
+    "icon": 🐃
+    "maxWeight": 700
+    "maxQuantity": 10
+    "maxSpeed": 3
+    "maxFoodRequired": 100
+  "Duck":
+    "name": "Утка"
+    "icon": 🦆
+    "maxWeight": 1
+    "maxQuantity": 200
+    "maxSpeed": 4
+    "maxFoodRequired": 0.15
+  "Caterpillar":
+    "name": "Гусеница"
+    "icon": 🐛
+    "maxWeight": 0.01
+    "maxQuantity": 1000
+    "maxSpeed": 0
+    "maxFoodRequired": 0
+  "Plant":
+    "name": "Растение"
+    "icon": 🌿
+    "maxWeight": 1
+    "maxQuantity": 200
